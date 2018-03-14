@@ -1,0 +1,14 @@
+logging:
+  level:
+    com.hellozjf.test.mqtt.subscriber: info
+mqtt:
+  address: tcp://47.96.180.90:61613
+  username: admin
+  password: password1006
+  qos: 2
+sendMqtt:
+  threadNum: 1024
+  sleepMsTime: 1000
+  sendSize: 1024
+server:
+  port: 9999
